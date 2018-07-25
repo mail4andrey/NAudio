@@ -79,6 +79,10 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Telerik.JustMock, Version=2018.2.511.5, Culture=neutral, PublicKeyToken=721b6c5bc0326b3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\JustMock.2018.1.117.2\lib\Net\Telerik.JustMock.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acm\AcmDriverTests.cs" />
@@ -90,6 +94,7 @@
     <Compile Include="Dmo\DmoTests.cs" />
     <Compile Include="Dmo\ResamplerDmoStreamTests.cs" />
     <Compile Include="Dmo\ResamplerDmoTests.cs" />
+    <Compile Include="Exceptions\ExceptionTests.cs" />
     <Compile Include="MediaFoundation\MediaFoundationReaderTests.cs" />
     <Compile Include="Midi\MidiEventCollectionTest.cs" />
     <Compile Include="Midi\MidiEventCloneTests.cs" />
